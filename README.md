@@ -66,7 +66,9 @@ The model had an accuracy of 70% and a recall of 69%
 A model using AlexNet architecture and the brightened dataset produced the highest true positives for the pituitary tumor class.
 The had an accuracy of 67.5% and a recall of 60%
 
+![AlexNet_loss]('./images/AlexNet_bright_loss.png')
 
+![AlexNet_conf]('./images/AlexNet_bright_loss.png')
 
 
 
