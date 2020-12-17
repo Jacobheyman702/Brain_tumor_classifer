@@ -69,7 +69,7 @@ The had an accuracy of 67.5% and a recall of 60%
 
 ![AlexNet_loss](./images/AlexNet_bright_loss.png)
 
-![AlexNet_conf](./images/AlexNet_bright_loss.png)
+![AlexNet_conf](./images/AlexNet_bright_confusion.png)
 
 
 
