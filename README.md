@@ -22,7 +22,7 @@ MRI imaging is an essential step in diagnosing and categroizing types of tumors 
 
 
 ## Data
-The Data is sourced from the Kaggle Brain Tumor Classification DataSet.  ![Brain Tumor Data](https://www.kaggle.com/sartajbhuvaji/brain-tumor-classification-mri)
+The Data is sourced from the Kaggle Brain Tumor Classification DataSet.  ![Brain Tumor Data]('https://www.kaggle.com/sartajbhuvaji/brain-tumor-classification-mri')
 
 The Dataset came pre split into train and test folders, with labled images for four tumor classes:
     
@@ -35,7 +35,7 @@ The Dataset came pre split into train and test folders, with labled images for f
     _ Pituitary Tumors
         - Cancer in the pituitary gland.  Most are benign but can influence the production of certain hormones.
 
-![tumor types](./Tumor_types.png)
+![tumor types](./images/Tumor_types.png)
 
 
 ## Data Understanding: Exploratory Data Analysis
