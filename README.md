@@ -58,7 +58,9 @@ Each models loss curve was plotted along with a confusion matrix to observe true
 
 The model with the best overall metrics was the experimental model 1 using unaltered data:
 The model had an accuracy of 70% and a recall of 69%
+
 ![exp1_loss]('./images/EXP_1_loss_plot.png')
+
 ![exp1_conf]('./images/exp_1_confusion.png')
 
 A model using AlexNet architecture and the brightened dataset produced the highest true positives for the pituitary tumor class.
