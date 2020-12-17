@@ -35,6 +35,7 @@ The Dataset came pre split into train and test folders, with labled images for f
     _ Pituitary Tumors
         - Cancer in the pituitary gland.  Most are benign but can influence the production of certain hormones.
 
+![tumor types](./Tumor_types.png)
 
 
 ## Data Understanding: Exploratory Data Analysis
