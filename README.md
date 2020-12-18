@@ -113,10 +113,9 @@ To further improve the tumor classification model some possible next steps inclu
 ## Repository Structure
 
 ```
-├──                            <- 
-├──           <- 
-├──                <- 
-├──        <- 
-├──              <-        
-├─                              <- 
-└──                 <- 
+├──  Images                        <- Saved png images from the notebooks
+├──  mri_data                      <- MRI image data 
+├──  .gitignore                    <- Git Ignore
+├──  Image_Analysis.ipynb          <- Notebook with initial image analysis
+├──  MRI_Image_CNN.ipynb           <- Brain Tumor Classification Modeling Process                                     
+└──  README.MD                     <- Overview of the Project
