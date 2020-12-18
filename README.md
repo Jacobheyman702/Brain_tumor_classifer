@@ -71,6 +71,10 @@ The had an accuracy of 67.5% and a recall of 60%
 
 ![AlexNet_conf](./images/AlexNet_bright_confusion.png)
 
+I used Lime to identify identify how the alexnet bright model was predicting on glioma tumors
+
+![lime](./images/lime_glioma.png)
+
 
 
 
