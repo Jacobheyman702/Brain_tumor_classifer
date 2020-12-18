@@ -1,6 +1,5 @@
-# Brain_tumor_classifer
+# Brain tumor classifer
 
-# 
 
 **Authors**: Jacob Heyman
 
@@ -14,10 +13,12 @@ In this study I attempt to create a MRI tumor segmentation classifer that classi
 
 
 ## Bussiness Problem 
-MRI imaging is an essential step in diagnosing and categroizing types of tumors in patients.  Too image brain tumors with an MRI, hundreds of images are produced for an individual patient.  These images need expert analysis from a radiologist and a neurologist to identify and determine the type of tumor.  This process is time consuming and relies on the access to the high calibur doctors. To expediate diagnosis and broaden the accesability of accurate classification, a properly trained CNN can be used to classify different types of tumors and act as a preliminary diagnosostic tool.  In this study I plan to answer the following questions:
- 1. Can a CNN classify tumors into four classes (glioma tumors, menigioma tumors, pituitary tumors and no tumors)
- 2. What CNN architecture reduces the highest amount of false negatives/ has the highest recall
- 3. What are the key features of each tumor class that is identified by the classification CNN
+MRI imaging is an essential step in diagnosing and categorizing types of tumors in patients.  Too image brain tumors with an MRI, hundreds of images are produced for an individual patient.  These images need expert analysis from a radiologist and a neurologist to identify and determine the type of tumor.  This process is time consuming and relies on the access to the high caliber doctors. To expediate diagnosis and broaden the accessibility of accurate classification, a properly trained CNN can be used to classify different types of tumors and act as a preliminary diagnostic tool.  In this study I plan to answer the following questions:
+ 
+1. Can a CNN classify tumors into four classes (glioma tumors, meningioma tumors, pituitary tumors and no tumors)
+2. What CNN architecture reduces the highest amount of false negatives/ has the highest recall
+3. What are the key features of each tumor class that is identified by the classification CNN
+
 
 
 
@@ -39,7 +40,7 @@ The Dataset came pre split into train and test folders, with labled images for f
 
 
 ## Data Understanding: Exploratory Data Analysis
-There was significant class imbalance for the no tumor class in the image dataset.  Image augmentation was used to double the no tumor set with horizontally fliped images.  The images where then seuperated by class to observe distinct key features.  Glioma tumors had distinctive assymetry in the brain.  Menigioma tumors appeared as large high pixel intestity clusters between the brain and the skull.  Pituitary tumors appear as high intensity clusters in the pituitary gland located below the hypothalamus(behind the bridge of the nose).  No tumor class images appear to have relativly symetrical brain tissue.   To exacerbate the high intensity feature of the pituitary and menigioma classes, image augmentation was used to brighten the images and double the total dataset.  
+There was significant class imbalance for the no tumor class in the image dataset.  Image augmentation was used to double the no tumor set with horizontally flipped images.  The images where then separated by class to observe distinct key features.  Glioma tumors had distinctive asymmetry in the brain.  Meningioma tumors appeared as large high pixel intensity clusters between the brain and the skull.  Pituitary tumors appear as high intensity clusters in the pituitary gland located below the hypothalamus (behind the bridge of the nose).  No tumor class images appear to have relatively symmetrical brain tissue.   To exacerbate the high intensity feature of the pituitary and meningioma classes, image augmentation was used to brighten the images and double the total dataset.  
 
 ## Methods
 Modeling: 
@@ -91,11 +92,12 @@ In order to produce a usable diagnostic tool, more work is needed to increase th
 
   
 ## Next Steps
-To further improve the tumor classification model some possible next steps inclue:
+To further improve the tumor classification model some possible next steps include:
 
-- Add flip and zoomed image augmentation to capture assymetry in glioma images
-- Reduce the brightness used in the brightened imageset and introduce darkened images to help with the classification of menigioma tumors
+- Add flip and zoomed image augmentation to capture asymmetry in glioma images
+- Reduce the brightness used in the brightened imageset and introduce darkened images to help with the classification of meningioma tumors
 - Tune the alexnet architecture to address overfitting
+
 
 
  
