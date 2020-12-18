@@ -104,8 +104,10 @@ To further improve the tumor classification model some possible next steps inclu
 
 ## For More Information
 
-[Image Analysis](./Image_Analysis.ipynb)
-[Modeling Process](./MRI_Image_CNN.ipynb)
+- [Image Analysis](./Image_Analysis.ipynb)
+ 
+
+- [Modeling Process](./MRI_Image_CNN.ipynb)
 
 
 
