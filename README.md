@@ -23,7 +23,7 @@ MRI imaging is an essential step in diagnosing and categorizing types of tumors 
 
 
 ## Data
-The Data is sourced from the Kaggle Brain Tumor Classification DataSet.  ![Brain Tumor Data]('https://www.kaggle.com/sartajbhuvaji/brain-tumor-classification-mri')
+The Data is sourced from the Kaggle Brain Tumor Classification DataSet.  [Brain Tumor Data](https://www.kaggle.com/sartajbhuvaji/brain-tumor-classification-mri)
 
 The Dataset came pre split into train and test folders, with labled images for four tumor classes:
     
